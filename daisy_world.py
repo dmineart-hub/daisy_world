@@ -22,3 +22,4 @@ Ab = 0.3 #Albedo
 emiss=0.996
 k_to_c = 273
 #this time
+#michelle and alex, can you see this, pls type y or n the code if you do
