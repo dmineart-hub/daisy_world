@@ -60,3 +60,33 @@ o = math.sqrt(math.sqrt(h))
 Te = -273 + o
 print(Te)
 
+#%%
+"""
+F=ste_boltz(Te+273)^4
+
+F is the total radiation lost to space
+
+"""
+F = (stef_boltz)*(Te+273)**4
+print(F)
+
+#%%
+"""
+q = SL/stef_boltz -> (T1 +273)^4 = SL/stef_boltz (1-A1)
+
+q = 0 , the local temp all become equal to themean temp
+This situation corresponds to perfect "conduction" of energy from higher to lower temps.
+
+q1 = q/4 (273+22.5)^3
+
+q is expressed as the degree to which solar energy, after having been abosrbd by the planet, is 
+redistributed amongst the three types of surface 
+
+"""
+q = (s*Lo)/(stef_boltz)
+print(q)
+
+q1 = (q/4) * (273 +22.5)**3
+print(q1)
+
+q0= 0 
